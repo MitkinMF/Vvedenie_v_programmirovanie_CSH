@@ -14,7 +14,12 @@ System.Console.WriteLine("введите число с");
 s=Console.ReadLine();   //ввод данных c
 c=Convert.ToDouble(s); // конвертация в double
 
-if (a>b && a>c)
+if (a==b && a==c) // проверка на равенство
+{
+    System.Console.WriteLine("числа равны");
+}
+
+else if (a>b && a>c)
 {
     System.Console.WriteLine($"а={a} максимальное число");
 }
@@ -23,6 +28,7 @@ else if (b>a && b>c)
 {
     System.Console.WriteLine($"b={b} максимальное число");
 }
+
 
 else 
 {
