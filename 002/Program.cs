@@ -3,15 +3,13 @@
 double a;
 double b;
 string? s=Console.ReadLine(); //ввод данных
-//a=Convert.ToInt32(s); // конвертация в int
 a=Convert.ToDouble(s); // конвертация в double
 s=Console.ReadLine();
 b=Convert.ToDouble(s); // конвертация в double
 
 if (a*a==b)
 {
-System.Console.WriteLine("b является квадратом a");
-
+    System.Console.WriteLine("b является квадратом a");
 }
 
 else
@@ -26,18 +24,15 @@ else
    }
 }
 
+
+
+
+
 /*
 b=a*a; //обработка данных
 System.Console.WriteLine("{0}^2={1}",a,b); //строка форматированиия
 System.Console.WriteLine($"{a}^2={b}"); // строка интерполяции
-*/
 
-
-
-
-
-
-/*
 if (2*2==4)
 {
 

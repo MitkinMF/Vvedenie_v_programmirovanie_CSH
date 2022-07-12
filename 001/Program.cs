@@ -3,7 +3,6 @@ double a;
 double b;
 string? s;
 s=Console.ReadLine(); //ввод данных
-//a=Convert.ToInt32(s); // конвертация в int
 a=Convert.ToDouble(s); // конвертация в double
 b=a*a; //обработка данных
 System.Console.WriteLine("{0}^2={1}",a,b); //строка форматированиия
@@ -16,7 +15,7 @@ System.Console.WriteLine($"{a}^2={b}"); // строка интерполяции
 
 
 
-// See https://aka.ms/new-console-template for more information
+
 //комментарии
 
 /*

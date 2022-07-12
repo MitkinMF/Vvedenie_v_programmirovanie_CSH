@@ -1,6 +1,6 @@
 ﻿//По двум заданным числам проверять является ли одно квадратом другого. Используйте подпрограмму.
 
-bool Check_SQRT(double a, double b)
+bool Check_kvadrat(double a, double b) // определение функции
 {
     return a*a==b;
 }
@@ -12,14 +12,14 @@ a=Convert.ToDouble(s); // конвертация в double
 s=Console.ReadLine();
 b=Convert.ToDouble(s); // конвертация в double
 
-if (Check_SQRT(a,b))
+if (Check_kvadrat(a,b))
 {
 System.Console.WriteLine("b является квадратом a");
 }
 
 else
 {
-    if (Check_SQRT(b,a))
+    if (Check_kvadrat(b,a))
    {
     System.Console.WriteLine("а является квадратом b");
    }

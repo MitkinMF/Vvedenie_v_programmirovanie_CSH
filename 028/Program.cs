@@ -1,6 +1,7 @@
 ﻿//Определить количество цифр в числе. Сделать подпрограмму.
-int N=1256;
-int CountDigits(int N)
+
+int N=125667564; //число
+int CountDigits(int N) //определение функции
 {
     if (N==0) return 1;
 int k=0;
@@ -11,4 +12,4 @@ while (N!=0)
 }
 return k;
 }
-System.Console.WriteLine(CountDigits(125));
+System.Console.WriteLine(CountDigits(N));
