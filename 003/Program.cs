@@ -13,10 +13,10 @@ b=Convert.ToDouble(s); // конвертация в double
 
 if (a<b)
 {
-    System.Console.WriteLine($"а={a} меньше b={b}");
+    System.Console.WriteLine($"b={b} максимальное число");
 }
 
 else
 {
-    System.Console.WriteLine($"b={b} меньше а={a}");
+    System.Console.WriteLine($"а={a} максимальное число");
 }

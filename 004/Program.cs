@@ -12,41 +12,16 @@ var days_of_week = new Dictionary<int, string>() //инициализация с
 };
 
 int a;
-System.Console.WriteLine("Номер дня недели от 1 до 7");
+System.Console.WriteLine("Введите номер дня недели от 1 до 7");
 string? s=Console.ReadLine(); //ввод данных
 a=Convert.ToInt32(s); // конвертация строки в int
 
 if (a>=1 && a<=7) // проверка на правильность номера
 {
-    System.Console.WriteLine($"{days_of_week[a]}"); //вывод дня недели во его ключу в словаре    
+    System.Console.WriteLine($"{days_of_week[a]}"); //вывод дня недели по его ключу в словаре    
 }
-else
 
+else
 {
     System.Console.WriteLine($"неверный номер"); 
 }
-
-
-/*
-
-double a;
-double b;
-
-System.Console.WriteLine("введите число а");
-string? s=Console.ReadLine(); //ввод данных
-a=Convert.ToDouble(s); // конвертация в double
-
-System.Console.WriteLine("введите число b");
-s=Console.ReadLine();
-b=Convert.ToDouble(s); // конвертация в double
-
-if (a<b)
-{
-    System.Console.WriteLine($"а={a} меньше b={b}");
-}
-
-else
-{
-    System.Console.WriteLine($"b={b} меньше а={a}");
-}
-*/
