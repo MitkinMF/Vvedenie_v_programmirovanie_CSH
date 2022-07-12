@@ -29,7 +29,6 @@ else if (b>a && b>c)
     System.Console.WriteLine($"b={b} максимальное число");
 }
 
-
 else 
 {
     System.Console.WriteLine($"c={c} максимальное число");
