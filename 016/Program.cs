@@ -17,11 +17,7 @@ b=x%7==0; //элементарные условия
 c=x%23==0;
 d=b && c; // сложное условие логическое укороченое И
 System.Console.WriteLine(x);
-/*
-System.Console.WriteLine(b);
-System.Console.WriteLine(c);
-System.Console.WriteLine(d);
-*/
+
 System.Console.WriteLine(x%7==0 && x%23==0); //альтернативное решение
 
 if (d)  // если истинно (d=true)
