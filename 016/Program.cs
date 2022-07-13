@@ -12,10 +12,10 @@ System.Console.WriteLine(b);
 */
 
 bool b,c,d;
-int x=7;
+int x=7; // данное число
 b=x%7==0; //элементарные условия
 c=x%23==0;
-d=b && c; // сложное условиеб логическое укороченое И
+d=b && c; // сложное условие логическое укороченое И
 System.Console.WriteLine(x);
 /*
 System.Console.WriteLine(b);
@@ -24,7 +24,7 @@ System.Console.WriteLine(d);
 */
 System.Console.WriteLine(x%7==0 && x%23==0); //альтернативное решение
 
-if (d)
+if (d)  // если истинно (d=true)
 {
     System.Console.WriteLine($"{x} кратно 7 и 23");
 }
