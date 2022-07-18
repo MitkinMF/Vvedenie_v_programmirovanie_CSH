@@ -25,3 +25,22 @@ else
 {
     System.Console.WriteLine($"неверный номер"); 
 }
+
+switch(a)
+{
+    case 1:
+      System.Console.WriteLine($"Monday"); 
+      break;
+    case 2:
+      System.Console.WriteLine($"Tuesday"); 
+      break;
+    case 3:
+      System.Console.WriteLine($"Wednesday"); 
+      break;
+    case 4:
+      System.Console.WriteLine($"Thursday"); 
+      break;
+    default:
+        System.Console.WriteLine($"wrong"); 
+        break;
+}

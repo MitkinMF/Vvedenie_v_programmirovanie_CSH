@@ -1,12 +1,23 @@
-﻿//Задать массив из 8 элементов и вывести их на экран
+﻿//32.Задать массив из 8 элементов и вывести их на экран
+
 int[] t; //объявление маcсива
-t=new int[8]; //создание массива
-t[0]=10;
-t[1]=12;
-for (int i=0;i<t.Length;i++)
+Init(out t,8,max:100);
+
+Print(t,"t"); 
+
+
+
+void Init(out int[] t, int Lenght,int min=0, int max=10)  //функция создание массива 
+//c заполнением его псевдослучайными числами
 {
-    t[i]=i*10;
+    t=new int[Lenght];
+    Random random = new Random();
+    for (int i=0;i<t.Length;i++)
+    t[i]=random.Next (min, max+1);
 }
 
-for (int i=0;i<t.Length;i++)
-    System.Console.Write($"a[{i}]={t[i]} ");
+void Print (int[] t, string variableName) //вывод элементов массива 
+{
+    for (int i=0;i<t.Length;i++)
+    System.Console.Write($"{variableName}[{i}]={t[i]} ");
+}

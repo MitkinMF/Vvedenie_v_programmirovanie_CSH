@@ -18,6 +18,6 @@ System.Console.WriteLine("введите кординату y2  точки B");
 s=Console.ReadLine();   //ввод данных 
 y2=Convert.ToDouble(s); // конвертация в double
 
-dist=Math.Sqrt (Math.Pow((x2-x1), 2) + Math.Pow((y2-y1),2));  
+dist=Math.Sqrt (Math.Pow((x2-x1), 2) + Math.Pow((y2-y1),2));  // вычисление расстояния м/у двумя точками по теореме пифагора
 
 System.Console.WriteLine($"расстояние между точками A и B равно {dist}");
