@@ -16,9 +16,7 @@ Solve(a, out sumPositive, out sumNegative);
 
 //Вывод результатов
 System.Console.WriteLine($"\nсумма положительных значений: {sumPositive}");   //оператор \n производит вывод с новой строки   
-    
 System.Console.WriteLine($"сумма отрицательных значений:{sumNegative}");    
-
 
 //функции
 void Init(out int[] t, int Lenght,int min=0, int max=10) //функция создание массива 
@@ -44,7 +42,6 @@ void Solve(int[] a, out int sumPositive,  out int sumNegative) //функция 
         if (a[i]>0)
             sumPositive=sumPositive+a[i];
     
-   
     for(int i=0;i<a.Length;i++)
         if (a[i]<0)
             sumNegative+=a[i];
