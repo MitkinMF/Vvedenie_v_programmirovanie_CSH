@@ -13,6 +13,7 @@ Print(b,"B");
 
 //b=(int[])a.Clone)(); // клонирование массива а в b  метод Clone
 
+
 // Функции
 void CloneArray(int[] a, out int[] b ) //функция клонирования массива
 {
