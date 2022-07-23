@@ -3,7 +3,6 @@
 //решение
 System.Console.WriteLine(CountNegativeNumbers(Input())); 
 
-
 //функции
 int CountNegativeNumbers(int[] a) //функция подсчета чисел меньше 0
 {

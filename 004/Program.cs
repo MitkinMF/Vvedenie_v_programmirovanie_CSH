@@ -26,6 +26,7 @@ else
     System.Console.WriteLine($"неверный номер"); 
 }
 
+
 switch(a)
 {
     case 1:
