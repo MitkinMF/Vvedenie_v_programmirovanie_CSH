@@ -16,14 +16,14 @@
 */
 
 using System;
-string s=Console.ReadLine();
+string s=Console.Read();
 int N=int.Parse(s.Split(' ', StringSplitOptions.RemoveEmptyEntries)[0]);
 int M=int.Parse(s.Split(' ', StringSplitOptions.RemoveEmptyEntries)[1]);
 int[,] a=new int[N,M];
 
 for (int i=0; i<N;i++)
 {
-    s=Console.ReadLine();
+    s=Console.Readline();
     string[] ss=s.Split(' ', StringSplitOptions.RemoveEmptyEntries);
     for(int j=0;j<ss.Length;j++)
         {
