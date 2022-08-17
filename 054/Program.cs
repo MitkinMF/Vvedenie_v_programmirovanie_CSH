@@ -41,11 +41,11 @@ int [,] SortDescending (int[,] a) //метод упорядочит по убы�
             }    
             // далее меняем местами значения в a[i,j] и a[i,jMax] если  jMax!=j
             if (jMax!=j)
-                {
-                    int temp=a[i,j];
-                    a[i,j]=a[i,jMax]; 
-                    a[i,jMax]=temp; 
-                }
+            {
+                int temp=a[i,j];
+                a[i,j]=a[i,jMax]; 
+                a[i,jMax]=temp; 
+            }
         } 
     }
     return a;
